@@ -1,0 +1,408 @@
+/* ========common Style ========*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.eb-garamond{
+    font-family: "EB Garamond", serif;
+}
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+/* ======== Nav Style ========*/
+nav ul li {
+    list-style: none;
+}
+.menu{
+    margin-top: 18px;
+}
+.menu ul{
+    display: flex;
+    gap: 30px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #707070;
+}
+.btn{
+    background-color: #B68C5A;
+    color: rgb(255, 255, 255);
+    padding: 18px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+/* ====Banner Section===== */
+.banner-section{
+    background-image: url(../images/Rectangle\ 5.png),url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.bannar-title{
+    font-weight: bolder;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 100px;
+}
+.banner-discription{
+    font-size: 16px;
+    text-align: center;
+    color: #E7E7E7;
+   padding-top: 24px;
+   padding-bottom: 30px;
+}
+.sbtn{
+    padding: 19px 0px;
+    padding-left: 5px;
+    background-color: #B68C5A;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+}
+#src{
+    padding: 19px 0px;
+    padding-left: 20px;
+    width: 500px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.search-optn{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* === Practice Area section === */
+.pas-driscription{
+   font-size: 16px;
+   color: #707070;
+   text-align: center;
+   margin-top: 24px;
+   margin-bottom: 50px;
+}
+.pas-title{
+    text-align: center;
+    color:rgb(65, 64, 64);
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 120px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    /* width: 350px; */
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.border-bottom{
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.border-side{
+    border-left: 1px solid rgb(231, 231, 231);
+    border-right: 1px solid rgb(231, 231, 231);
+}
+.criminal-box{
+    background: linear-gradient(180.00deg, rgb(243, 243, 243),rgba(243, 243, 243, 0) 100%);
+    border: 1px solid rgb(231, 231, 231);
+}
+.box-title{
+    color: #414040;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+.box-driscription{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #707070;
+    padding: 0 50px;
+    margin-bottom: 35px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid green; */
+}
+/* What Our Client section */ 
+.banner-2{
+    background-image: url(../images/Rectangle\ 7.png),url(../images/banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     /* justify-content: center; */
+}
+.img-logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border:3px solid rgb(255, 255, 255); 
+    margin-top: 95px; 
+}
+.l-img{
+    width: 100%;
+    height:100%;
+    border-radius: 50px;
+}
+.driscription{
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 130px;
+    margin-top: 32px;
+}
+.sub-title{
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 1rem;
+   text-align: center;
+   margin-top: 10px;
+}
+.b-title{
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 24px;
+}
+.What-Client-say-sec{
+   margin-bottom: 120px;
+}
+/*aaq section */
+.text-aaq{
+   height:100%;
+}
+.img-aaq img{
+   height:100%;
+
+}
+.frist-area{
+    padding:30px 28px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.area{
+    margin-top: 0;
+}
+.fa-title{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #414040;
+    text-align: left;
+}
+.fa-dris{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #707070;
+    text-align: left;
+}
+.gta{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 440px;
+    bottom: 35px;
+}
+.gtaplus{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 440px;
+    bottom: 25px;
+}
+.akq-con{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 120px;
+}
+/* info and box */
+.info-box{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.border-bottom-2{
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.border-left-2{
+    border-left: 1px solid rgb(207, 207, 207);
+}
+.ads-dris{
+   color: #707070;
+   font-size: 1rem;
+   font-weight: 400;
+}
+.ads-title{
+    color: #414040;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.info-and-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    box-sizing: border-box;
+}
+.f-a-info{
+    display: flex;
+}
+.name{
+    background-color:  rgb(243, 243, 243);
+    height: 70px;
+    width: 480px;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #707070;
+    padding-left: 20px;
+}
+.text-message{
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #707070;
+    padding-left: 20px;
+    display: block;
+    background-color:  rgb(243, 243, 243);
+    height: 120px;
+    width: 480px;
+    margin-left:30px;
+}
+.buttton-sm{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #B68C5A;
+    width: 480px;
+    height: 50px;
+    border-radius: 8px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+}
+.contact-sec{
+    margin-bottom: 120px;
+}
+/* footer section */
+footer{
+    background-color: #111111;
+    max-width: 100%;
+    padding-bottom: 40px;
+    margin-top: 100px;
+
+}
+.l1-deis{
+    color: rgb(207, 207, 207);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 260px;
+}
+.list1{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.l2-title{
+    color: rgb(255, 255, 255);
+    font-family: EB Garamond;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.list2{
+    padding-top: 100px;
+}
+.list2 h3{
+    color: #CFCFCF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.f-prarent{
+    display: flex;
+    gap: 68px;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.last-pera{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 230px;
+    height: 50px;
+    color: rgb(160, 160, 160);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 16px;
+    margin-top: 20px;
+}
+.h{
+    text-align: center;
+    color: rgb(160, 160, 160);
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top:20px ;
+}
